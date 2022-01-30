@@ -1,9 +1,8 @@
 {
-    "ts-node": {
-        "compilerOptions": {
-            "module": "CommonJS",
-        },
-    },
-    // "include": ["**/*.ts"],
-    // "exclude": [],
+  "compilerOptions": {
+    "module": "esnext",
+    "strict": false,
+    "target": "es2017",
+    "moduleResolution": "Node",
+  },
 }
