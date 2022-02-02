@@ -1,8 +1,13 @@
 {
   "compilerOptions": {
-    "module": "esnext",
-    "strict": false,
-    "target": "es2017",
+    "strict": true,
+    "target":"ES6",
+    // "target": "ES2017",
+    "module": "CommonJS",
+    // "module": "ES2022",
     "moduleResolution": "Node",
+    "outDir": "dist",
   },
+  // "include": ["src/**/*"],
+  "exclude": ["node_modules"]
 }
