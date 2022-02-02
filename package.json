@@ -2,10 +2,9 @@
   "name": "crawl-stock",
   "version": "1.0.0",
   "description": "crawl naver stock page",
-  "exports": "./index.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node index.ts",
+    "start": "npx tsc && node ./dist/index.js",
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,6 +12,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^17.0.13",
+    "ts-node": "^10.4.0",
     "typescript": "^4.5.5"
   },
   "dependencies": {
