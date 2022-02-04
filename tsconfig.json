@@ -1,13 +1,19 @@
 {
+  // "ts-node": {
+  //   "compilerOptions": {
+  //     "module": "CommonJS"
+  //   }
+  // },
   "compilerOptions": {
     "strict": true,
     "target":"ES6",
-    // "target": "ES2017",
-    "module": "CommonJS",
-    // "module": "ES2022",
+    // "target": "ES2020",
+    // "module": "CommonJS",
+    "module": "ES2020",
     "moduleResolution": "Node",
     "outDir": "dist",
+    "esModuleInterop": true
   },
-  // "include": ["src/**/*"],
+  // "include": ["src/**/*.ts"],
   "exclude": ["node_modules"]
 }
